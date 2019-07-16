@@ -7,24 +7,30 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="js/script.js"></script>
 </head>
 <body>
+  <button onclick="topFunction()" id="toTop" title="Go to top">
+<i class="fa fa-angle-up" aria-hidden="true"></i></button>
   <header>
     <div class="container">
       <a href="#" class="logo">
         <img src="logo.jpg" class="image_one" alt="logo">
       </a>
-      <button class="sp"><i class="fa fa-navicon"></i></button>
+      <button class="sp" onclick="my function()"><i class="fa fa-navicon" id="menu"></i></button>
     </div>
-      <div class="navigation">
+      <div class="navigation" >
         <nav class="navi_wrap">
-          <ul class="nav_one">
-            <li><a href="#" class="Home">Home</a></li>
-            <li><a href="#" class="navi_menu" >Courses</a></li>
-            <li><a href="#" class="navi_menu" >Events</a></li>
-            <li><a href="#" class="navi_menu" >News</a></li>
-            <li><a href="#" class="navi_menu" >Research</a></li>
-            <li><a href="#" class="navi_menu" >Contact Us</a></li>
+          <ul class="nav_one" id="nav-bar">
+            <li><a href="#home" class="Home">Home</a></li>
+            <li><a href="#courses" class="navi_menu" >Courses</a></li>
+            <li><a href="#events" class="navi_menu" >Events</a></li>
+            <li><a href="#news" class="navi_menu" >News</a></li>
+            <li><a href="#research" class="navi_menu" >Research</a></li>
+            <li><a href="#contact" class="navi_menu" >Contact Us</a></li>
           </ul>
         </nav>
         <a href="#" class="search_icon">
@@ -32,7 +38,7 @@
         </a>
       </div>
   </header>
-  <div class="main-visual">
+  <div class="main-visual" id="home">
     <div class="container">
       <h2>Admission open!<br>September 27, 2017</h2>
       <p class="para_one">Apply at Academy University for bachelor
@@ -41,7 +47,7 @@
     </div>
   </div>
   <div class="div_courses">
-    <h1 class="h1_two">Courses</h1>
+    <h1 class="h1_two" id="courses">Courses</h1>
   <div class="two column">
     <section class="section_one">
       <figure class="courses_img">
@@ -65,8 +71,8 @@
     </section>
   </div>
   </div>
-  <div class="event and news_wrap">
-    <h1 class="h1_three">Events And News</h1>
+  <div class="event and news_wrap" id="events">
+    <h1 class="h1_three" id="news">Events And News</h1>
     <div class="event_float">
   <div class="event and news_column">
       <ul>
@@ -90,26 +96,26 @@
             <p class="para_four">Professor Tom comments on
             voluntary recalls by snacks brands</p>
           </li>
-        <li>
+          <li>
           <figure class="fig_two"><img src="event-3.jpeg" alt=""></figure>
           <h5>JUNE 06,2018 / ADMISSION EVENT</h5>
           <p class="para_four">Professor Tom comments on
           voluntary recalls by snacks brands</p>
-        </li>
-        <li>
+         </li>
+         <li>
           <figure class="fig_two">
             <img src="event-4.jpeg" alt="">
           </figure>
           <h5>JUNE 06,2018 / ARTICLE,RESEARCH</h5>
           <p class="para_four">Professor Alexe is interviewed<br>
           about twitter valuation</p>
-        </li>
+         </li>
       </ul>
     </div>
   </div>
 </div>
   <div class="research_wrap">
-    <h1 class="h1_two">Research</h1>
+    <h1 class="h1_two" id="research">Research</h1>
     <div class="research_column">
     <section>
       <figure class="research_img">
@@ -144,7 +150,7 @@
     </section>
   </div>
   </div>
-  <div class="contact_wrap">
+  <div class="contact_wrap" id="contact">
     <h6 class="h6_two">EMAIL ADDRESS</h6>
     <button class="button_last">SUBMIT</button>
     <hr class="hr_last">

@@ -10,7 +10,19 @@ body {
   padding:0 20px;
   margin:0 auto;
 }
-
+#toTop {
+  position:fixed;
+  right:20px;
+  padding:10px;
+  bottom:100px;
+  background:#f7bb07;
+  border-radius:4px;
+  cursor:pointer;
+  display:none;
+}
+#toTop:hover {
+  background:#ffeb3b;
+}
 
 
 /**************/
@@ -37,6 +49,13 @@ i.fa.fa-navicon {
 .navi_wrap{
   display:none;
 }
+
+
+
+.navi_wrap{
+  display:flex;
+}
+
 .search_icon {
   display: none;
 }
@@ -215,7 +234,6 @@ p.para_four {
 
 li {
   list-style: none;
-  margin-top: 35px;
   margin-right: 10px;
   margin-left: -30px;
 }
@@ -435,6 +453,7 @@ small {
 
   .search_icon {
     display: block;
+    margin-top: 1px;
   }
   /**************/
   /* header*/
@@ -479,14 +498,15 @@ header .container {
 }
 ul.nav_one {
     background: black;
-    padding: 17px;
+    padding: 18px;
     width: 1260px;
     margin-top: -1px;
     transition: 0.3s;
+    display: flex;
 }
 a.Home {
     background:  #fd5e00;
-    padding: 18px;
+    padding: 20px;
     margin-left: -28px;
     transition: 0.3s;
 }
@@ -504,7 +524,7 @@ a.navi_menu:hover {
 i.fa.fa-search {
     margin-top: -2px;
     background: #fd5e00;
-    padding: 19px;
+    padding: 20px;
     transition: 0.3s;
 }
 
@@ -532,6 +552,7 @@ i.fa.fa-search:hover {
   margin-top: 54px;
   padding-left: 29px;
 }
+
 
 
   .para_one {
