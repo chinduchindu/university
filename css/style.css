@@ -17,7 +17,7 @@ body {
 }
 .top-btn {
   padding: 5px 10px;
-  background-color: orange;
+  background-color: #fd5e00;
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -43,9 +43,10 @@ header .container {
 header .logo img {
   width: 150px;
 }
-nav li:hover {
-  background: #fd5e00;
+.wrap .pc li:hover {
+  background-color: #fd5e00;
 }
+
 nav li a:hover {
   color: white;
 }
@@ -63,7 +64,9 @@ i.fa.fa-navicon {
 .search_icon {
   display: none;
 }
-
+.search_icon:hover {
+  opacity: 0.8;: 
+}
 header #mainNav {
   background-color: rgb(255,255,255);
   width: 200px;
@@ -107,11 +110,9 @@ header a {
 
 .main-visual .container {
   margin-left: 50px;
-  padding-top: 40px;
 }
 
 h2 {
-  padding-top: 60px;
   text-align: left;
   font-size: 40px;
 }
@@ -119,7 +120,6 @@ h2 {
 .para_one {
   text-align: left;
   font-size: 20px;
-  width: 400px;
 }
 
 
@@ -142,10 +142,10 @@ button.button_one:hover{
 /* Courses */
 /**************/
 
-h1 {
+.div_courses .container h1 {
     font-size: 40px;
     text-align: center;
-    padding-top: 48px;
+    margin-top: 48px;
     margin-bottom: 48px;
 }
 
@@ -189,11 +189,11 @@ section.section_two {
 
 h3 {
     margin-left: 41px;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .para_two {
-    font-size: 23px;
+    font-size: 20px;
     line-height: 30px;
     margin-left: 40px;
     padding-bottom: 30px;
@@ -211,9 +211,13 @@ h3 {
   display: block;
   margin-top: 10px;
 }
+.new {
+    padding: 48px 0px;
+    text-align: center;
+}
 .event-new {
   background-color: #e1e1e1;
-  margin-top: 66px;
+  margin-top: 60px;
   padding-bottom: 62px;
 }
 
@@ -223,6 +227,12 @@ h3 {
 
 .event_left .side {
   margin: 10px 37px;
+}
+.event_right .side h4 {
+  margin-bottom: 0;
+}
+.event_right .side p {
+  margin-top: 5px;
 }
 
 figure.fig_one img {
@@ -267,8 +277,11 @@ p.para_three {
   display: block;
   margin-top: 10px;
 }
+.research_heading {
+  padding: 48px 0px;
+  text-align: center;
+}
 .research_wrap {
-  margin-top: 40px;
   margin-left: 14px;
 }
 
@@ -314,6 +327,7 @@ img.res-pic {
   background-color: #010101;
   color: white;
   padding-bottom: 45px;
+  margin-top: 60px;
 }
 
 h6.h6_two {
@@ -541,11 +555,12 @@ small {
   nav li {
     list-style: none;
   }
-
-  nav li:hover {
-    background: #fd5e00;
+  ul.pc li {
+    margin-right: 5px;
+}
+  .wrap .pc li:first-child {
+    background-color: #fd5e00;
   }
-
   header .navigation {
     width: 100%;
     box-sizing: border-box;
@@ -558,9 +573,6 @@ i.fa.fa-search {
     padding: 20px 40px;
 }
 
-i.fa.fa-search:hover {
-  opacity: .7;
-}
 
 
 
@@ -605,7 +617,6 @@ button.button_one:hover{
 
   h2 {
     font-size: 53px;
-    margin-top: 68px;
     margin-bottom: 6px;
 }
 
