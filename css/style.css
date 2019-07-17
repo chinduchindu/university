@@ -916,6 +916,10 @@ input[type="submit"] {
     margin-bottom: 7px;
     font-size: 20px;
 }
+input[type="submit"]:hover {
+  background-color: white;
+  color: black;
+}
 /**************/
 /*footer*/
 /**************/
