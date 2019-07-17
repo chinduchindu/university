@@ -213,6 +213,7 @@
 }
  .event-new .group {
      display: flex;
+     margin-bottom: 20px;
 }
 .event_left .side {
     margin: 10px 0px;
@@ -637,7 +638,10 @@ p.para_three {
     }
      figure.fig_two {
          margin-left: 8px;
-         margin-bottom: 62px;
+         margin-bottom: 42px;
+    }
+    .event-new .group {
+      margin-bottom: 0;
     }
      p.para_four {
          font-size: 18px;
