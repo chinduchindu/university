@@ -197,6 +197,15 @@
      padding: 48px 0px;
      text-align: center;
 }
+.fig_one {
+  margin: 0;
+}
+.fig_two {
+  margin: 0;
+}
+.side {
+  padding-left: 20px;
+}
  .event-new {
      background-color: #e1e1e1;
      margin-top: 60px;
@@ -205,11 +214,15 @@
  .event-new .group {
      display: flex;
 }
- .event_left .side {
-     margin: 10px 37px;
+.event_left .side {
+    margin: 10px 0px;
 }
- .event_right .side h4 {
-     margin-bottom: 0;
+.event_right .side h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+p.para_four {
+    font-size: 14px;
 }
  .event_right .side p {
      margin-top: 5px;
@@ -231,8 +244,9 @@
      color: #fb6100;
      font-size: 15px;
 }
- p.para_three {
-     font-size: 13px;
+p.para_three {
+    font-size: 15px;
+    margin-bottom: 20px;
 }
 /**************/
 /* research*/
@@ -616,6 +630,7 @@
     }
      .event_left {
          width: 50%;
+         margin-right: 22px;
     }
      .event_right {
          width: 50%;
@@ -641,11 +656,11 @@
      .left_heading {
          color: #fb6100;
          font-size: 20px;
-         margin-left: -33px;
+         margin-left: -15px;
     }
      p.para_three {
          font-size: 18px;
-         margin-left: -33px
+         margin-left: -15px
     }
      h5 {
          color: #fb6100;
