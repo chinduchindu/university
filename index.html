@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
@@ -9,181 +10,205 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-  <script src="js/script.js"></script>
 </head>
+
 <body>
   <button onclick="topFunction()" id="toTop" title="Go to top">
-<i class="fa fa-angle-up" aria-hidden="true"></i></button>
+    <i class="fa fa-angle-up" aria-hidden="true"></i></button>
   <header>
     <div class="container">
       <a href="#" class="logo">
         <img src="logo.jpg" class="image_one" alt="logo">
       </a>
-      <button class="sp" onclick="my function()"><i class="fa fa-navicon" id="menu"></i></button>
-    </div>
-      <div class="navigation" >
-        <nav class="navi_wrap">
-          <ul class="nav_one" id="nav-bar">
-            <li><a href="#home" class="Home">Home</a></li>
-            <li><a href="#courses" class="navi_menu" >Courses</a></li>
-            <li><a href="#events" class="navi_menu" >Events</a></li>
-            <li><a href="#news" class="navi_menu" >News</a></li>
-            <li><a href="#research" class="navi_menu" >Research</a></li>
-            <li><a href="#contact" class="navi_menu" >Contact Us</a></li>
+
+      <nav class="navigation">
+
+        <button id="menuBar" class="sp"><i class="fa fa-navicon"></i></button>
+        <ul id="mainNav">
+          <li><a href="#courses" class="navi_menu">Courses</a></li>
+          <li><a href="#events" class="navi_menu">Events</a></li>
+          <li><a href="#news" class="navi_menu">News</a></li>
+          <li><a href="#research" class="navi_menu">Research</a></li>
+          <li><a href="#contact" class="navi_menu">Contact Us</a></li>
+        </ul>
+        <div class="wrap">
+          <ul class="pc ">
+            <li><a href="#home" class="navi_menu">Home</a></li>
+            <li><a href="#courses" class="navi_menu">Courses</a></li>
+            <li><a href="#events" class="navi_menu">Events</a></li>
+            <li><a href="#news" class="navi_menu">News</a></li>
+            <li><a href="#research" class="navi_menu">Research</a></li>
+            <li><a href="#contact" class="navi_menu">Contact Us</a></li>
           </ul>
-        </nav>
-        <a href="#" class="search_icon">
-          <i class="fa fa-search" aria-hidden="true"></i>
-        </a>
-      </div>
+          <ul>
+            <li> <a href="#" class="search_icon pc"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
   <div class="main-visual" id="home">
     <div class="container">
-      <h2>Admission open!<br>September 27, 2017</h2>
+      <h2>Admission open !<br>September 27, 2017</h2>
       <p class="para_one">Apply at Academy University for bachelor
-        and Master's degree courses</p>
+        and Master's degree courses.</p>
       <button class="button_one">Read more</button>
     </div>
   </div>
   <div class="div_courses">
-    <h1 class="h1_two" id="courses">Courses</h1>
-  <div class="two column">
-    <section class="section_one">
-      <figure class="courses_img">
-        <img class="courses_pic" src="chemical_pic.jpeg" alt="">
-      </figure>
-      <h3>CHEMICAL ENGINEERING</h3>
-      <p class="para_two">Program offered:<br>
-        B.Tech in Chemical Engineering<br>
-        M.Tech in Chemical Engineering
-      </p>
-    </section>
-    <section class="section_two">
-      <figure class="courses_img">
-        <img  class="courses_pic" src="financial_pic.jpeg" alt="">
-      </figure>
-      <h3>FINANCIAL ACCOUNTING</h3>
-      <p class="para_two">Program offered:<br>
-        B.com in Financial Accounting<br>
-        M.com in Financial Accounting
-      </p>
-    </section>
-  </div>
-  </div>
-  <div class="event and news_wrap" id="events">
-    <h1 class="h1_three" id="news">Events And News</h1>
-    <div class="event_float">
-  <div class="event and news_column">
-      <ul>
-        <li>
-            <figure class="fig_one">
-            <img src="event-1.jpeg" alt="">
-            </figure>
-            <h4>JUNE 06,2018/ADMISSION STUDENT</h4>
-            <p class="para_three">Professor Albert join research on mobile<br>
-              money in Tanzania</p>
-        </li>
-      </ul>
+    <div class="container">
+      <h1 id="courses">Courses</h1>
+      <div class="two column">
+        <section class="section_one">
+          <figure class="courses_img">
+            <img class="courses_pic" src="chemical_pic.jpeg" alt="">
+          </figure>
+          <h3>CHEMICAL ENGINEERING</h3>
+          <p class="para_two">Program offered:<br>
+            B.Tech in Chemical Engineering<br>
+            M.Tech in Chemical Engineering
+          </p>
+        </section>
+        <section class="section_two">
+          <figure class="courses_img">
+            <img class="courses_pic" src="financial_pic.jpeg" alt="">
+          </figure>
+          <h3>FINANCIAL ACCOUNTING</h3>
+          <p class="para_two">Program offered:<br>
+            B.com in Financial Accounting<br>
+            M.com in Financial Accounting
+          </p>
+        </section>
+      </div>
     </div>
-    <div class="event_right">
-      <ul>
-          <li>
-            <figure class="fig_two">
-              <img src="event-2.jpeg" alt="">
-            </figure>
-            <h5>JUNE 06,2018 / ADMISSION EVENT</h5>
+  </div>
+  <div class="event-new" id="events">
+    <div class="container">
+      <h1 id="news">Events And News</h1>
+<div class="event_section">
+
+      <div class="event_left">
+        <figure class="fig_one">
+          <img src="event-1.jpeg" alt="">
+        </figure>
+        <div class="side">
+          <h4 class="left_heading">JUNE 06,2018/ADMISSION STUDENT</h4>
+          <p class="para_three">Professor Albert join research on mobile<br>
+            money in Tanzania</p>
+        </div>
+      </div>
+
+      <div class="event_right">
+
+        <div class="group">
+          <figure class="fig_two">
+            <img src="event-2.jpeg" alt="">
+          </figure>
+          <div class="side">
+            <h4>JUNE 06,2018 / ADMISSION EVENT</h4>
             <p class="para_four">Professor Tom comments on
-            voluntary recalls by snacks brands</p>
-          </li>
-          <li>
+              voluntary recalls by snacks brands</p>
+          </div>
+        </div>
+        <div class="group">
           <figure class="fig_two"><img src="event-3.jpeg" alt=""></figure>
-          <h5>JUNE 06,2018 / ADMISSION EVENT</h5>
-          <p class="para_four">Professor Tom comments on
-          voluntary recalls by snacks brands</p>
-         </li>
-         <li>
+          <div class="side">
+            <h4>JUNE 06,2018 / ADMISSION EVENT</h4>
+            <p class="para_four">Professor Tom comments on
+              voluntary recalls by snacks brands</p>
+          </div>
+        </div>
+        <div class="group">
           <figure class="fig_two">
             <img src="event-4.jpeg" alt="">
           </figure>
-          <h5>JUNE 06,2018 / ARTICLE,RESEARCH</h5>
-          <p class="para_four">Professor Alexe is interviewed<br>
-          about twitter valuation</p>
-         </li>
-      </ul>
+          <div class="side">
+            <h4>JUNE 06,2018 / ARTICLE,RESEARCH</h4>
+            <p class="para_four">Professor Alexe is interviewed<br>
+              about twitter valuation</p>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   </div>
-</div>
   <div class="research_wrap">
-    <h1 class="h1_two" id="research">Research</h1>
-    <div class="research_column">
-    <section>
-      <figure class="research_img">
-        <img class= "res-pic" src="res-pic1.jpeg" alt="">
-      </figure>
-      <h6>GRADUATION</h6>
-      <hr>
-      <p><i class="fa fa-clock-o" aria-hidden="true">
-        July 05,2018 @ 10.00 a.m-July 05,2020
-        @10.00 a.m</i><br>
-        <i class="fa fa-map-marker" aria-hidden="true">  24,Wilsely Ave, East York</i></p>
-    </section>
-    <section>
-      <figure class="research_img">
-        <img class= "res-pic" src="res-pic2.jpg" alt="">
-      </figure>
-      <h6>LET'S TALK SCIENCE</h6>
-      <hr>
-      <p><i class="fa fa-clock-o" aria-hidden="true">
-         July 11,2018 @ 7.30p.m-July 11,2020 @7.30p.m</i><br>
-        <i class="fa fa-map-marker" aria-hidden="true">  24,Wilsely Ave, East York</i></p>
-    </section>
-    <section>
-      <figure class="research_img">
-        <img class= "res-pic" src="res-pic3.jpg" alt="">
-      </figure>
-      <h6>PAINTING</h6>
-      <hr>
-      <p><i class="fa fa-clock-o" aria-hidden="true">
-      July 11,2018 @ 7.30 p.m-July 11,2020 @7.30 p.m</i><br>
-       <i class="fa fa-map-marker" aria-hidden="true">   24,Wilsely Ave, East York</i></p>
-    </section>
-  </div>
+    <div class="container">
+      <h1 id="research">Research</h1>
+      <div class="research_column">
+        <div class="research_section">
+          <figure class="research_img">
+            <img class="res-pic" src="res-pic1.jpeg" alt="">
+          </figure>
+          <h6>GRADUATION</h6>
+          <hr>
+          <p><i class="fa fa-clock-o" aria-hidden="true">
+              July 05,2018 @ 10.00 a.m-July 05,2020
+              @10.00 a.m</i><br>
+            <i class="fa fa-map-marker" aria-hidden="true"> 24,Wilsely Ave, East York</i></p>
+        </div>
+        <div class="research_section">
+          <figure class="research_img">
+            <img class="res-pic" src="res-pic2.jpg" alt="">
+          </figure>
+          <h6>LET'S TALK SCIENCE</h6>
+          <hr>
+          <p><i class="fa fa-clock-o" aria-hidden="true">
+              July 11,2018 @ 7.30p.m-July 11,2020 @7.30p.m</i><br>
+            <i class="fa fa-map-marker" aria-hidden="true"> 24,Wilsely Ave, East York</i></p>
+        </div>
+        <div class="research_section">
+          <figure class="research_img">
+            <img class="res-pic" src="res-pic3.jpg" alt="">
+          </figure>
+          <h6>PAINTING</h6>
+          <hr>
+          <p><i class="fa fa-clock-o" aria-hidden="true">
+              July 11,2018 @ 7.30 p.m-July 11,2020 @7.30 p.m</i><br>
+            <i class="fa fa-map-marker" aria-hidden="true"> 24,Wilsely Ave, East York</i></p>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="contact_wrap" id="contact">
-    <h6 class="h6_two">EMAIL ADDRESS</h6>
-    <button class="button_last">SUBMIT</button>
-    <hr class="hr_last">
-    <div class="contact_container">
-    <div class="contact_left">
-      <h6 class="h6_last">ABOUT US</h6>
-      <P CLASS="para_last">On the way to where the air
-        is sweet.Can you tell us how
-        to get the sesame sweet.The
-        first mate and skipper too
-        will do their very best to make
-        other comfortable.</P>
+    <div class="container">
+      <h6 class="h6_two">EMAIL ADDRESS</h6>
+      <button class="button_last">SUBMIT</button>
+      <hr class="hr_last">
+      <div class="contact_container">
+        <div class="contact_left">
+          <h6 class="h6_last">ABOUT US</h6>
+          <P CLASS="para_last">On the way to where the air
+            is sweet.Can you tell us how
+            to get the sesame sweet.The
+            first mate and skipper too
+            will do their very best to make
+            other comfortable.</P>
 
-      <ul class="social-icons">
-        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-google-plus-official" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-      </ul>
+          <ul class="social-icons">
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus-official" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+        <div class="contact_right">
+          <h6 class="h6_last"> CONTACT INFO</h6>
+          <p class="para_last_one">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>09,Design street,Downstreet,Sydney,Australia.<br>
+            <i class="fa fa-fax" aria-hidden="true"></i>12345678<br>
+            <i class="fa fa-phone" aria-hidden="true"></i>12345678<br>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>info@educampus.com
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="contact_right">
-    <h6 class="h6_last"> CONTACT INFO</h6>
-    <p class="para_last_one">
-        <i class="fa fa-map-marker" aria-hidden="true"></i>09,Design     street,Downstreet,Sydney,Australia.<br>
-        <i class="fa fa-fax" aria-hidden="true"></i>12345678<br>
-        <i class="fa fa-phone" aria-hidden="true"></i>12345678<br>
-        <i class="fa fa-envelope-o" aria-hidden="true"></i>info@educampus.com
-    </p>
-  </div>
-</div>
   </div>
   <footer>
     <small>&copy;Copyright 2019</small>
   </footer>
+
+  <script src="js/script.js"></script>
 </body>
+
 </html>

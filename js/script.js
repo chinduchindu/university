@@ -1,13 +1,15 @@
 
 
-function myFunction() {
-  var x = document.getElementById("navi_wrap");
-  if (x.className === "navi_wrap") {
-    x.className += " active";
-  } else {
-    x.className = "navi_wrap";
-  }
-}
+//////////////////////////////////////////////
+// HAMBURGER MENU
+//////////////////////////////////////////////
+var menuBar = document.getElementById('menuBar');
+var mainNav = document.getElementById('mainNav');
+
+menuBar.addEventListener('click', function () {
+    mainNav.classList.toggle('active');
+    console.log('working');
+});
 
 // smooth scroll function
 $(function() {
