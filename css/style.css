@@ -43,6 +43,9 @@ header .container {
 header .logo img {
   width: 150px;
 }
+.navigation .sp  li:hover {
+  background-color: #fd5e00;
+}
 .wrap .pc li:hover {
   background-color: #fd5e00;
 }
@@ -65,7 +68,7 @@ i.fa.fa-navicon {
   display: none;
 }
 .search_icon:hover {
-  opacity: 0.8;: 
+  opacity: 0.8;:
 }
 header #mainNav {
   background-color: rgb(255,255,255);
